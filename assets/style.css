@@ -1,6 +1,6 @@
 :root {
     --fontcolor: black;
-    --primary: blue;
+    --primary: rgb(86, 1, 143);
     --secondary: rgb(31, 31, 192);
 }
 
@@ -28,17 +28,13 @@ header {
     text-align: center;
     font-family: cursive;
     text-shadow: rgb(212, 209, 209) 1px 0 10px;
-    background: linear-gradient(110deg, blue 50%, rgb(31, 31, 192) 50%);
+    background: linear-gradient(110deg, rgb(90, 2, 161) 50%, rgb(87, 1, 158) 50%);
     margin-bottom: 10px;
     padding-top: 7px;
     padding-bottom: 7px;
 
 }
 
-.lighting {
-    animation: flicker 1.5s infinite alternate;
-    color: beige;
-}
 
 body {
     margin: 0;

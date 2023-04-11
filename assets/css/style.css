@@ -1,7 +1,7 @@
 :root {
     --fontcolor: black;
     --primary: blue;
-    --secondary: rgb(31, 31, 192);
+    --secondary: rgb(100, 0, 139);
 }
 
 h2 {
@@ -28,17 +28,13 @@ header {
     text-align: center;
     font-family: cursive;
     text-shadow: rgb(212, 209, 209) 1px 0 10px;
-    background: linear-gradient(110deg, blue 50%, rgb(31, 31, 192) 50%);
+    background: linear-gradient(110deg, rgb(99, 5, 206) 50%, rgb(6, 69, 141) 50%);
     margin-bottom: 10px;
     padding-top: 7px;
     padding-bottom: 7px;
 
 }
 
-.lighting {
-    animation: flicker 1.5s infinite alternate;
-    color: beige;
-}
 
 body {
     margin: 0;
@@ -83,7 +79,7 @@ aside {
     margin: 0;
     padding-bottom: 10px;
     font-size: 35px;
-    background: linear-gradient(110deg, blue 50%, rgb(31, 31, 192) 50%);
+    background: linear-gradient(110deg, rgb(7, 71, 145) 50%, rgb(31, 31, 192) 50%);
 
 }
 

@@ -47,7 +47,7 @@ $SearchBtn.on('click', function (event) {
     
 
     // Fetch request to get current citys info
-    fetch('https://api.openweathermap.org/data/2.5/weather?q=' + Input.value + '&appid=ec96c3d6509b8a012ba07a86b8f2719b')
+    fetch('https://api.openweathermap.org/data/2.5/weather?q=' + Input.value + '&appid=20516ee7fdcc8a804bdcda9f63d8d30a')
         .then(response => response.json())
         .then(data => {
             //console.log(data);
@@ -79,7 +79,7 @@ $SearchBtn.on('click', function (event) {
     .catch(err => alert("Wrong city name"))
 
     // fetch request to get 5-day forecast
-    fetch('https://api.openweathermap.org/data/2.5/forecast?q=' + Input.value + '&units=imperial&appid=ec96c3d6509b8a012ba07a86b8f2719b')
+    fetch('https://api.openweathermap.org/data/2.5/forecast?q=' + Input.value + '&units=imperial&appid=20516ee7fdcc8a804bdcda9f63d8d30a')
         .then(response => response.json())
         .then(data => {
             console.log(data);
@@ -127,7 +127,7 @@ $('#BtnSpots').on('click', '#Relook' , function (event) {
     event.stopImmediatePropagation();
      console.log("Clicked");
      var city = $(this).text();
-    fetch('https://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=ec96c3d6509b8a012ba07a86b8f2719b')
+    fetch('https://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=20516ee7fdcc8a804bdcda9f63d8d30a')
     .then(response => response.json())
     .then(data => {
         //console.log(data);
@@ -159,7 +159,7 @@ $('#BtnSpots').on('click', '#Relook' , function (event) {
 .catch(err => alert("Wrong city name"))
 
 // fetch request to get 5-day forecast
-fetch('https://api.openweathermap.org/data/2.5/forecast?q=' + city + '&units=imperial&appid=ec96c3d6509b8a012ba07a86b8f2719b')
+fetch('https://api.openweathermap.org/data/2.5/forecast?q=' + city + '&units=imperial&appid=20516ee7fdcc8a804bdcda9f63d8d30a')
     .then(response => response.json())
     .then(data => {
         console.log(data);

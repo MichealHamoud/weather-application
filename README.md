@@ -6,5 +6,7 @@ For this weeks challenge I was tasked with creating a weather dashboard using Op
 
 
 
+https://michealhamoud.github.io/weather-application/
+
 
 ![weather dashboard](https://user-images.githubusercontent.com/123305537/231714410-a8499d69-0eec-403c-93a3-b989a3203b91.PNG)

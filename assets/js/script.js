@@ -30,7 +30,7 @@ fetch('https://api.openweathermap.org/data/2.5/forecast?q='+newName.value+'&appi
 }
 
 function DefaultScreen(){
-    document.getElementById("cityInput").defaultValue = "London";
+    document.getElementById("cityInput").defaultValue = "melbourne";
     GetInfo();
 }
 
